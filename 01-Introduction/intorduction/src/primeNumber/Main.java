@@ -17,5 +17,5 @@ public class Main {
     }
 }
 
-// Time Complexity: O(N)
+// Time Complexity: O(sqrt(N))
 // Space Complexity: O(1)
