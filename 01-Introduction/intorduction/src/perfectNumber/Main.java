@@ -16,3 +16,6 @@ public class Main {
         System.out.println("Entered Number is Perfect? " + isPerfect);
     }
 }
+
+// Time Complexity: O(sqrt(N))
+// Space Complexity: O(1)
