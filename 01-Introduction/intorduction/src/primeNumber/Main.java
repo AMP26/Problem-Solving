@@ -16,3 +16,6 @@ public class Main {
         System.out.println("Entered Number is Prime?  " + isPrime);
     }
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
