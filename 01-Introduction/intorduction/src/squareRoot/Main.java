@@ -18,5 +18,5 @@ public class Main {
     }
 }
 
-// Time Complexity: O(log(N)
+// Time Complexity: O(log(N))
 // Space Complexity: O(1)
