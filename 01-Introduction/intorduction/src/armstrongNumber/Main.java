@@ -1,3 +1,5 @@
+package armstrongNumber;
+
 import java.util.Scanner;
 
 public class Main {
