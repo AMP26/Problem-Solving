@@ -17,7 +17,7 @@ public class Fundamentals {
         return arr[index];
     }
 
-    public int getLength() {
+    public int getLengthOfArray() {
         return arr.length;
     }
 }
