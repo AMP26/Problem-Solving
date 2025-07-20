@@ -1,0 +1,1 @@
+Given N Array elements, count number of elements having at least 1 element greater than itself.
