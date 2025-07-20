@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Enter Your Choice: ");
         int choice = sc.nextInt();
 
-        opt.chooseOption(/*result, n,*/ choice);
+        opt.chooseOption(choice);
     }
 }
 

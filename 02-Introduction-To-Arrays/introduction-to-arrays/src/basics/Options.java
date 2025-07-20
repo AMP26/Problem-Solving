@@ -18,7 +18,7 @@ public class Options {
         this.funda = new Fundamentals(arr);
     }
 
-    public void chooseOption(/*int[] arr, int len,*/ int choice) {
+    public void chooseOption(int choice) {
 
         switch(choice) {
             case 1:
