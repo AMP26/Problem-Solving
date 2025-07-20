@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int n = 5;
+        int[] result = new int[n];
 
-        System.out.println("Enter Size of the Array: ");
-        int n = sc.nextInt();
-
-        int[] result = new int[n]; // Array declaration
+//      int[] result = {1, 2, 3, 4, 5};  // Another way to create and initialize an array
 
         System.out.println("Enter Array Elements: ");
         // Array initialization
@@ -23,12 +22,12 @@ public class Main {
         System.out.println("Press 2: Enter Index Number to Get Single Element.");
         System.out.println("Press 3: Get Length of the Array.");
 
-        Options opt = new Options();
+        Options opt = new Options(result, n);
 
         System.out.println("Enter Your Choice: ");
         int choice = sc.nextInt();
 
-        opt.chooseOption(result, n, choice);
+        opt.chooseOption(/*result, n,*/ choice);
     }
 }
 

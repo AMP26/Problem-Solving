@@ -8,16 +8,18 @@ public class Options {
 
     private int[] arr;
     private int len;
+    private Fundamentals funda;
 
     public Options() { }
 
-//    public Options(int[] arr, int len) {
-//        this.arr = arr;
-//        this.len = len;
-//    }
+    public Options(int[] arr, int len) {
+        this.arr = arr;
+        this.len = len;
+        this.funda = new Fundamentals(arr);
+    }
 
-    public void chooseOption(int[] arr, int len, int choice) {
-        Fundamentals funda = new Fundamentals(arr);
+    public void chooseOption(/*int[] arr, int len,*/ int choice) {
+
         switch(choice) {
             case 1:
                 System.out.println("Array Elements: ");
@@ -26,11 +28,13 @@ public class Options {
             case 2:
                 System.out.println("Enter An Index Between 0 & " + (len - 1));
                 int idx = sc.nextInt();
-                funda.getSingleElement(idx);
+                int element = funda.getSingleElement(idx);
+                System.out.println("Element at Index " + idx + ": " + element);
                 break;
             case 3:
                 System.out.println("Length of Array: ");
-                funda.getLengthOfArray();
+                int size = funda.getLengthOfArray();
+                System.out.println("Length of Array: " + size);
                 break;
             default:
                 System.out.println("Invalid Option!");
