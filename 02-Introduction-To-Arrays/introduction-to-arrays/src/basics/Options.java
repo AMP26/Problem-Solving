@@ -38,7 +38,6 @@ public class Options {
                 break;
             default:
                 System.out.println("Invalid Option!");
-                break;
         }
     }
 }
