@@ -2,8 +2,8 @@ package rotatearray;
 
 public class Solution {
     public void rotateArray(int[] nums, int k) {
+        k %= nums.length;
         int n = nums.length - 1;
-        k %= n;
 
         reverseArray(nums, 0, n);
         reverseArray(nums, 0, k - 1);
