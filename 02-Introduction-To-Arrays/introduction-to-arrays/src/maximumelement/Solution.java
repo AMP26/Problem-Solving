@@ -5,10 +5,13 @@ import java.util.Arrays;
 public class Solution {
 
     public int minOperations(int[] A, int B) {
-        Arrays.sort(A);
-        for(int i = 0; i < A.length; i++) {
-            if(A[i] == B) { return A.length - (i + 1); }
+        int count = 0, flag = 0;
+        for(int n : A) {
+            if(n == B) { flag = 1; }
+            if(n > B) { count++; }
         }
-        return -1;
+
+        int result = (flag == 1) ? count : -1;
+        return result;
     }
 }
