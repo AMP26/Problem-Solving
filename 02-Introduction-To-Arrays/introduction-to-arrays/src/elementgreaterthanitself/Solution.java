@@ -17,3 +17,6 @@ public class Solution {
         return arr.length - count;
     }
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
