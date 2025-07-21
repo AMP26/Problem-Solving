@@ -11,8 +11,8 @@ public class Solution {
 
         for(int i = 0; i < nums.length; i++) {
             if(map.containsKey(target - nums[i])) {
-                result[0] = i;
-                result[1] = map.get(target - nums[i]);
+                result[0] = map.get(target - nums[i]);
+                result[1] = i;
                 return result;
             }
             map.putIfAbsent(nums[i], i);
