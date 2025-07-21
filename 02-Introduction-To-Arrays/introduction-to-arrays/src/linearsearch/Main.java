@@ -10,6 +10,6 @@ public class Main {
         Solution sol = new Solution();
         boolean result = sol.linearSearch(arr, b);
 
-        System.out.println("Is " + b + " present in the Array? " + result); 
+        System.out.println("Is " + b + " present in the Array? " + result);
     }
 }
