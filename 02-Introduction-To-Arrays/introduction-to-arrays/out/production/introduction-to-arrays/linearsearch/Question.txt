@@ -1,0 +1,1 @@
+Given an Array and an integer B. You have to tell whether B is present in array A or not.

@@ -12,3 +12,6 @@ public class Solution {
         System.out.println("Maximum: " + max + " & " + "Minimum: " + min);
     }
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
