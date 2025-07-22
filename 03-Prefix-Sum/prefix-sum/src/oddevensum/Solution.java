@@ -36,3 +36,6 @@ public class Solution {
         return resultOdd;
     }
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(N)
