@@ -20,7 +20,7 @@ public class Solution {
         return result;
     }
 
-    private int sumResult(int arr[], int s, int e) {
+    private int sumResult(int[] arr, int s, int e) {
         int sum = 0;
         for(int i = s; i <= e; i++) { sum += arr[i]; }
         return sum;
