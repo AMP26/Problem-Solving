@@ -7,9 +7,9 @@ public class Main {
 
         Solution sol = new Solution(arr, b);
 
-        int[] result = sol.rangeSum();
+        long[] result = sol.rangeSum();
 
         System.out.println("Result: "); // [10, 5]
-        for(int n : result) { System.out.print(n + " "); }
+        for(long n : result) { System.out.print(n + " "); }
     }
 }
