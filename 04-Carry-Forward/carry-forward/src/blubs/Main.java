@@ -7,6 +7,6 @@ public class Main {
         Solution sol = new Solution();
         int result = sol.bulbs(arr);
 
-        System.out.println("Minimum number of switches you have to press to turn on all the bulbs: " + result);
+        System.out.println("Minimum number of switches to be pressed to turn on all the bulbs: " + result);
     }
 }
