@@ -12,3 +12,6 @@ public class Solution {
         return countPair;
     }
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
