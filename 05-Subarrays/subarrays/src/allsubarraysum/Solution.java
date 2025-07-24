@@ -11,3 +11,6 @@ public class Solution {
         return totalSum;
     }
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
