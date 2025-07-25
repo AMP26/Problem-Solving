@@ -8,7 +8,7 @@ public class Main {
 
         Solution sol = new Solution();
         int index1 = sol.bruteForce(A, B);
-        int index2 = sol.optimisedSol(A, B);
+        int index2 = sol.optimizedSol(A, B);
 
         System.out.println("Brute Force Approach: ");
         System.out.println("Start Index of Subarray with Least Average: " + index1);

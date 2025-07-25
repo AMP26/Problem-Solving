@@ -2,7 +2,7 @@ package leastaverage;
 
 public class Solution {
 
-    public int optimisedSol(int[] arr, int b) {
+    public int optimizedSol(int[] arr, int b) {
         int index = 0, minSum = 0;
 
         for(int i = 0; i < b; i++) { minSum += arr[i]; }
@@ -17,6 +17,9 @@ public class Solution {
         }
         return index;
     }
+
+    // Time Complexity: O(N)
+    // Space Complexity: O(1)
 
     public int bruteForce(int[] arr, int b) {
         int index = 0, minAvg = Integer.MAX_VALUE;
@@ -34,4 +37,7 @@ public class Solution {
         }
         return index;
     }
+
+    // Time Complexity: O(N)
+    // Space Complexity: O(1)
 }
