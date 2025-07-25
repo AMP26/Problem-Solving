@@ -3,14 +3,12 @@ package maxsum;
 public class Solution {
 
     public int maxSum(int[] arr) {
-        int maxRes = Integer.MIN_VALUE;
+        int maxRes = Integer.MIN_VALUE, sum = 0;
 
-        for(int i = 0; i < arr.length; i++) {
-            int sum = 0;
-            for(int j = i; j < arr.length; j++) {
-                sum += arr[j];
-                maxRes = Math.max(maxRes, sum);
-            }
+        for(int n : arr) {
+            sum += n;
+            maxRes = Math.max(sum, maxRes);
+            if(sum < 0) { sum = 0; }
         }
 
         return maxRes;
