@@ -38,6 +38,6 @@ public class Solution {
         return index;
     }
 
-    // Time Complexity: O(N)
+    // Time Complexity: O(N * N)
     // Space Complexity: O(1)
 }
