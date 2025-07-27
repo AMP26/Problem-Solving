@@ -6,7 +6,8 @@ public class Main {
         
         Solution sol = new Solution();
         int[] result = sol.rowSum(arr);
-        
+
+        System.out.println("Result: ");
         for(int i : result) { System.out.print(i + " "); }
     }
 }
