@@ -7,8 +7,6 @@ public class Main {
         Solution sol = new Solution();
         int[] result = sol.columnSum(arr);
 
-        for(int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + " ");
-        }
+        for(int i : result) { System.out.print(i + " "); }
     }
 }
