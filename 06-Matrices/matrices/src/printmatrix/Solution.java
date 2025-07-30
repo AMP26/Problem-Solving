@@ -11,3 +11,6 @@ public class Solution {
         }
     }
 }
+
+// Time Complexity: O(N * N)
+// Space Complexity: O(1)
