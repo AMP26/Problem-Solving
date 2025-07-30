@@ -12,5 +12,5 @@ public class Solution {
     }
 }
 
-// Time Complexity: O(N * N)
+// Time Complexity: O(N * M)
 // Space Complexity: O(1)
