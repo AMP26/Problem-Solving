@@ -30,3 +30,6 @@ public class Solution {
         }
     }
 }
+
+// Time Complexity: O(N * N * N)
+// Space Complexity: O(N)
