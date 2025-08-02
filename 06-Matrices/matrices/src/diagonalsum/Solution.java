@@ -19,3 +19,7 @@ public class Solution {
         return sum;
     }
 }
+
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
