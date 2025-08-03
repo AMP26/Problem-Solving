@@ -16,3 +16,6 @@ public class Solution {
         return result;
     }
 }
+
+// Time Complexity: O(N * M)
+// Space Complexity: O(M)
