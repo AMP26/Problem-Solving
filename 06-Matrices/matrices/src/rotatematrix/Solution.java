@@ -28,6 +28,6 @@ public class Solution {
                 System.out.print(mat[i][j] + " ");
             }
             System.out.println("");
-        }
+        } 
     }
 }
