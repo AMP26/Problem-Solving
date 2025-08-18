@@ -15,7 +15,7 @@ public class Solution {
             for(int j = 0, x = m - 1; j < x; j++, x--) {
                 int temp = mat[i][j];
                 mat[i][j] = mat[i][x];
-                mat[i][x] = temp;
+                mat[i][x] = temp;  
             }
         }
 
