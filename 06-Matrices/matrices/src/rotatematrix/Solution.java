@@ -20,7 +20,7 @@ public class Solution {
         }
 
         printMatrix(mat);
-    }
+    } 
 
     private void printMatrix(int[][] mat) {
         for(int i = 0; i < mat.length; i++) {
