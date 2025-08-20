@@ -19,7 +19,7 @@ public class Solution {
             }
         }
 
-        printMatrix(mat);
+        printMatrix(mat);  
     } 
 
     private void printMatrix(int[][] mat) {
