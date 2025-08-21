@@ -16,10 +16,10 @@ public class Solution {
                 int temp = mat[i][j];
                 mat[i][j] = mat[i][x];
                 mat[i][x] = temp;  
-            }
+            } 
         }
 
-        printMatrix(mat);  
+        printMatrix(mat);
     } 
 
     private void printMatrix(int[][] mat) {
