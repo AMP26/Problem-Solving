@@ -1,25 +1,24 @@
 package rotatematrix;
 
 public class Solution {
-    public void rotateMatrix(int[][] mat) {
-        int n = mat.length, m = mat[0].length;
-        for(int i = 0; i < n; i++) {
-            for(int j = i + 1; j < m; j++) {
-                int temp = mat[i][j];
-                mat[i][j] = mat[j][i];
-                mat[j][i] = temp;
+    public void rotateMatrix(int[][] matrix) {
+        for(int i = 0; i < matrix.length; i++) {
+            for(int j = i + 1; j < matrix.length; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
             }
         }
 
-        for(int i = 0 ; i < n; i++) {
-            for(int j = 0, x = m - 1; j < x; j++, x--) {
-                int temp = mat[i][j];
-                mat[i][j] = mat[i][x];
-                mat[i][x] = temp;  
-            } 
+        for(int i = 0; i < matrix.length; i++) {
+            for(int j = 0, k = matrix.length - 1; j < k; j++, k--) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[i][k];
+                matrix[i][k] = temp;
+            }
         }
 
-        printMatrix(mat);
+        printMatrix(matrix);
     } 
 
     private void printMatrix(int[][] mat) {
