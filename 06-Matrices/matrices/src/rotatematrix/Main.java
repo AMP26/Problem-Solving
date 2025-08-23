@@ -7,6 +7,6 @@ public class Main {
         int[][] A = {{7}};
 
         Solution sol = new Solution();
-        sol.rotateMatrix(A);
+        sol.rotateMatrix(A); 
     }
 }
