@@ -7,5 +7,5 @@ public class Main {
 
         FloorArray ca = new FloorArray();
         ca.binarySearch(nums, target);
-    }      
+    }
 }
