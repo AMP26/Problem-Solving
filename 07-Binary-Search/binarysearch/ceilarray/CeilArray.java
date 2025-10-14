@@ -17,5 +17,5 @@ public class CeilArray {
             else { end = mid - 1; }
         }
         return start;      
-    } 
+    }     
 }
